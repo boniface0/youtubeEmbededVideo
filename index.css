@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    background-color: aliceblue;
+    padding: 1rem 0;
+}
+.nav .brand_details{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+.search_details{
+  width: 30rem;
+  border: 1px solid black;
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0.3rem;
+}
+.search{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.section_content{
+  display: block;
+  margin-top: 4.4rem;
+  width: 100%;
+  position: relative;
+  height: 60vh;
+}
+a{
+    color: unset;
+}
+.sidebar_menu{
+    float: left;
+    width: 200px;
+    position: fixed;
+    height: 100vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+    z-index: 11;
+}
+.youtube_menu{
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+.youtube_menu_links{
+ display: flex;
+ gap: 2rem;
+ cursor: pointer;
+ width: 100%;
+margin-bottom: 2px;
+padding:10px;
+}
+.youtube_content{
+    float: left;
+    margin-left: 220px;
+    height: 100%;
+    width: 100%;
+    position: relative;  
+}
+.active{
+    background-color: aliceblue;
+}
+.line{
+    width: 100%;
+}
+.mt{
+    margin-top: 10px;
+}
+.viewed_category{
+    position: fixed;
+}
+.categories_button{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 10px;
+}
+.button{
+ max-width: 200px;
+ min-width: 100px;   
+ border: 0.2px solid black;
+ background-color: aliceblue;
+ border-radius: 10px;
+ outline: none;
+ padding: 5px;
+}
+.youtube_videos{
+    margin-top: 50px; 
+    overflow-x: auto;
+}
